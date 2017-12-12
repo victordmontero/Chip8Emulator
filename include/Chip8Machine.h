@@ -32,18 +32,19 @@ public:
 	char screen[2048];
 	char* romName;
 	char hexcodes[80];
+	char keys[16];
+	char waitKey;
 	FILE* openedRom;
 	bool isRunning;
 
 	Chip8Machine();
-
-	Chip8Machine(const char*);
-	~Chip8Machine();
+	~Chip8Machine(){}
 	bool LoadROM(const char*);
 	long GetRomSize();
 	void Clear();
 	void ScreenToUint32(Uint32* result);
 	void StepMachine();
+	int IsKeyDown(char key);
 };
 
 #endif /* CHIP8MACHINE_H_ */

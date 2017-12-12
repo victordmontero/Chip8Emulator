@@ -1,5 +1,5 @@
 ﻿  main.cpp
-c:\users\vmontero\documents\megasync\chip8emulator\src\main.cpp(33): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\vmontero\documents\megasync\chip8emulator\src\main.cpp(34): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
   Chip8Machine.cpp
 c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(15): warning C4309: '=' : truncation of constant value
 c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(16): warning C4309: '=' : truncation of constant value
@@ -65,45 +65,31 @@ c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(106): wa
 c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(107): warning C4309: '=' : truncation of constant value
 c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(108): warning C4309: '=' : truncation of constant value
 c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(109): warning C4309: '=' : truncation of constant value
-c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(119): warning C4309: '=' : truncation of constant value
-c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(120): warning C4309: '=' : truncation of constant value
-c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(121): warning C4309: '=' : truncation of constant value
-c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(122): warning C4309: '=' : truncation of constant value
-c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(123): warning C4309: '=' : truncation of constant value
-c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(131): warning C4309: '=' : truncation of constant value
-c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(133): warning C4309: '=' : truncation of constant value
-c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(134): warning C4309: '=' : truncation of constant value
-c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(135): warning C4309: '=' : truncation of constant value
 c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(137): warning C4309: '=' : truncation of constant value
+c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(138): warning C4309: '=' : truncation of constant value
 c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(139): warning C4309: '=' : truncation of constant value
+c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(140): warning C4309: '=' : truncation of constant value
 c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(141): warning C4309: '=' : truncation of constant value
-c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(143): warning C4309: '=' : truncation of constant value
-c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(144): warning C4309: '=' : truncation of constant value
-c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(145): warning C4309: '=' : truncation of constant value
 c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(149): warning C4309: '=' : truncation of constant value
-c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(150): warning C4309: '=' : truncation of constant value
 c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(151): warning C4309: '=' : truncation of constant value
+c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(152): warning C4309: '=' : truncation of constant value
 c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(153): warning C4309: '=' : truncation of constant value
 c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(155): warning C4309: '=' : truncation of constant value
-c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(156): warning C4309: '=' : truncation of constant value
 c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(157): warning C4309: '=' : truncation of constant value
-c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(158): warning C4309: '=' : truncation of constant value
 c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(159): warning C4309: '=' : truncation of constant value
 c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(161): warning C4309: '=' : truncation of constant value
+c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(162): warning C4309: '=' : truncation of constant value
+c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(163): warning C4309: '=' : truncation of constant value
 c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(167): warning C4309: '=' : truncation of constant value
 c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(168): warning C4309: '=' : truncation of constant value
 c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(169): warning C4309: '=' : truncation of constant value
-c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(170): warning C4309: '=' : truncation of constant value
 c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(171): warning C4309: '=' : truncation of constant value
 c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(173): warning C4309: '=' : truncation of constant value
 c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(174): warning C4309: '=' : truncation of constant value
 c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(175): warning C4309: '=' : truncation of constant value
+c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(176): warning C4309: '=' : truncation of constant value
 c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(177): warning C4309: '=' : truncation of constant value
 c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(179): warning C4309: '=' : truncation of constant value
-c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(180): warning C4309: '=' : truncation of constant value
-c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(181): warning C4309: '=' : truncation of constant value
-c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(182): warning C4309: '=' : truncation of constant value
-c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(183): warning C4309: '=' : truncation of constant value
 c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(185): warning C4309: '=' : truncation of constant value
 c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(186): warning C4309: '=' : truncation of constant value
 c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(187): warning C4309: '=' : truncation of constant value
@@ -112,7 +98,6 @@ c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(189): wa
 c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(191): warning C4309: '=' : truncation of constant value
 c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(192): warning C4309: '=' : truncation of constant value
 c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(193): warning C4309: '=' : truncation of constant value
-c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(194): warning C4309: '=' : truncation of constant value
 c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(195): warning C4309: '=' : truncation of constant value
 c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(197): warning C4309: '=' : truncation of constant value
 c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(198): warning C4309: '=' : truncation of constant value
@@ -129,7 +114,22 @@ c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(210): wa
 c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(211): warning C4309: '=' : truncation of constant value
 c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(212): warning C4309: '=' : truncation of constant value
 c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(213): warning C4309: '=' : truncation of constant value
-c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(225): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(215): warning C4309: '=' : truncation of constant value
+c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(216): warning C4309: '=' : truncation of constant value
+c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(217): warning C4309: '=' : truncation of constant value
+c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(218): warning C4309: '=' : truncation of constant value
+c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(219): warning C4309: '=' : truncation of constant value
+c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(221): warning C4309: '=' : truncation of constant value
+c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(222): warning C4309: '=' : truncation of constant value
+c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(223): warning C4309: '=' : truncation of constant value
+c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(224): warning C4309: '=' : truncation of constant value
+c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(225): warning C4309: '=' : truncation of constant value
+c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(227): warning C4309: '=' : truncation of constant value
+c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(228): warning C4309: '=' : truncation of constant value
+c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(229): warning C4309: '=' : truncation of constant value
+c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(230): warning C4309: '=' : truncation of constant value
+c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(231): warning C4309: '=' : truncation of constant value
+c:\users\vmontero\documents\megasync\chip8emulator\src\chip8machine.cpp(261): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
           c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
   Generating Code...
   Chip8Emulador.vcxproj -> C:\Users\vmontero\Documents\MEGAsync\Chip8Emulator\build\vs2012\..\..\bin\Debug\Chip8Emulador.exe

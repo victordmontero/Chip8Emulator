@@ -22,9 +22,17 @@ int main(int args, char* argv[])
 	bool isRunning = true;
 	Uint32 LastTicks = 0;
 	int cycles = 0;
+	Uint8* state = NULL;
 
 	Chip8Machine cpu;
-	if (!cpu.LoadROM("roms/INVADERS"))
+	
+	#ifdef DEBUG
+	fprintf(stdout, "%s\n", argv[1]);
+	#endif
+	if(args < 1 && strlen(argv[1]) < 0)
+		return 1;
+	
+	if (!cpu.LoadROM(argv[1]))
 	{
 		fprintf(stderr, "Error al cargar\n");
 		return EXIT_FAILURE;
@@ -74,7 +82,22 @@ int main(int args, char* argv[])
 
 		if (SDL_GetTicks() - cycles > 1)
 		{
-			cpu.StepMachine();
+			if (cpu.waitKey == -1)
+			{
+				cpu.StepMachine();
+			}
+			else
+			{
+				for (int key = 0; key <= 0xF; key++)
+				{
+					if (cpu.IsKeyDown(key))
+					{
+						cpu.registers[cpu.waitKey] = key;
+						cpu.waitKey = -1;
+						break;
+					}
+				}
+			}
 			cycles = SDL_GetTicks();
 		}
 
