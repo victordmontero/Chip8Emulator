@@ -25,24 +25,25 @@ int main(int args, char* argv[])
 	Uint8* state = NULL;
 
 	Chip8Machine cpu;
-	
-	#ifdef DEBUG
+
+#ifdef DEBUG
 	fprintf(stdout, "%s\n", argv[1]);
-	#endif
-	if(args < 1 && strlen(argv[1]) < 0)
-		return 1;
-	
+#endif
+	if (args == 1)
+	{
+		printf("Uso: %s <Ruta del Rom>\n", argv[0]);
+		return EXIT_SUCCESS;
+	}
+
 	if (!cpu.LoadROM(argv[1]))
 	{
 		fprintf(stderr, "Error al cargar\n");
 		return EXIT_FAILURE;
 	}
 
-	srand(time(NULL));
-
 	if (SDL_Init(SDL_INIT_EVERYTHING) < 0)
 	{
-		printf("%s\n", SDL_GetError());
+		fprintf(stderr, "%s\n", SDL_GetError());
 		return EXIT_FAILURE;
 	}
 	atexit(SDL_Quit);
