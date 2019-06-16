@@ -2,7 +2,7 @@
 Emulador de Chip8 en C++
 
 ## Uso:
-	- Chip8Emulator <Ruta del Rom>
+	$ Chip8Emulator <Ruta del Rom>
 
 ## Example:
-	- Chip8Emulator roms/PONG
+	$ Chip8Emulator roms/PONG
